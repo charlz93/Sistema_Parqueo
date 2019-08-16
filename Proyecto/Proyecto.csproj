@@ -79,5 +79,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\Piso 1.png" />
+    <Content Include="image\Piso 2.png" />
+    <Content Include="image\Vehiculo.png" />
+    <Content Include="Properties\Piso 1.png" />
+    <Content Include="Properties\Piso 2.png" />
+    <Content Include="Properties\Vehiculo.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
