@@ -85,5 +85,15 @@
     <Content Include="image\Piso 2.png" />
     <Content Include="image\Vehiculo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa de Datos\Capa de Datos.csproj">
+      <Project>{513dc53c-c9b9-4d96-868c-43a991b457cd}</Project>
+      <Name>Capa de Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa de Negocios\Capa de Negocios.csproj">
+      <Project>{0b873d8f-ed33-42e4-822a-92cba3fa938a}</Project>
+      <Name>Capa de Negocios</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
