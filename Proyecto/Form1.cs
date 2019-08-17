@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Proyecto.Properties;
 
 namespace Proyecto
 {
@@ -31,9 +32,7 @@ namespace Proyecto
             }
             else
             {
-                
-                string ruta = Path.Combine(Application.CommonAppDataPath, @"image\Vehiculo.png");
-                button1.Image = Image.FromFile(@ruta);
+                button1.Image = Resources.Vehiculo;
             }
             
         }
