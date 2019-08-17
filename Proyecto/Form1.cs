@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Proyecto.Properties;
+using Capa_de_Datos;
 
 namespace Proyecto
 {
@@ -35,6 +36,14 @@ namespace Proyecto
                 button1.Image = Resources.Vehiculo;
             }
             
+        }
+
+        private void ProbarConexionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            String mensaje = "";
+            
+                      
+            MessageBox.Show(mensaje)
         }
     }
 }
